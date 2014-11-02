@@ -30,7 +30,7 @@ public class Road extends JPanel implements ActionListener,Runnable{
         while(true){
             Random rand=new Random();
             try {
-                Thread.sleep(rand.nextInt(20000));
+                Thread.sleep(rand.nextInt(1000));
                 enemies.add(new Enemy(1200,
                         rand.nextInt(600),
                         rand.nextInt(60),this));
