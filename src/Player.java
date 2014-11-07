@@ -14,7 +14,7 @@ public class Player {
 
     public static final int MAX_V=100;
     public static final int MAX_TOP=50;
-    public static final int MAX_BOTTOM=450;
+    public static final int MAX_BOTTOM=400;
 
     Image img_c = new ImageIcon("res/player.png").getImage();
     Image img_l = new ImageIcon("res/left.png").getImage();

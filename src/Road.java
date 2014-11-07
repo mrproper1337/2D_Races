@@ -30,7 +30,7 @@ public class Road extends JPanel implements ActionListener,Runnable{
         while(true){
             Random rand=new Random();
             try {
-                Thread.sleep(rand.nextInt(1000));
+                Thread.sleep(rand.nextInt(3000));
                 enemies.add(new Enemy(1200,
                         rand.nextInt(600),
                         rand.nextInt(60),this));
@@ -79,8 +79,8 @@ public class Road extends JPanel implements ActionListener,Runnable{
         while(i.hasNext()){
             Enemy e=i.next();
                 if(p.getRect().intersects(e.getRect())){
-                JOptionPane.showMessageDialog(null,"YOLO#1");
-                System.exit(1);
+                    JOptionPane.showMessageDialog(null,"Wasted");
+                    System.exit(1);
             }
         }
     }
