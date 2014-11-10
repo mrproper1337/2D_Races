@@ -7,7 +7,7 @@ import java.awt.event.KeyEvent;
  * User: mrproper
  * Date: 08.10.13
  * Time: 20:10
- * To change this template use File | Settings | File Templates.
+ * To cshange this template use File | Settings | File Templates.
  */
 public class Player {
 
